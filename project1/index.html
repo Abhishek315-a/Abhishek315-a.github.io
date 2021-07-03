@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABHI's Fitness</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<style>
+     body {
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url(ab.jpg);
+        font-family: 'Baloo Bhai 2', cursive;
+    }
+
+    .left {
+        display: inline-block;
+        /* border: 2px solid red; */
+        position: absolute;
+        top: 18px;
+        left: 50px;
+
+    }
+
+    .mid {
+        /* border: 2px solid rgb(39, 168, 207); */
+        width: 37%;
+        margin: 20px auto;
+
+    }
+
+    .right {
+        display: inline-block;
+        /* border: 2px solid rgb(28, 194, 77); */
+        position: absolute;
+        top: 18px;
+        right: 10px;
+    }
+
+    .navbar li a {
+        text-decoration: none;
+        color: white;
+        padding: 34px 22px
+    }
+
+    .navbar li {
+        display: inline-block;
+
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        color: grey;
+        text-decoration: underline;
+
+    }
+
+    .left img {
+        width: 90px;
+        border-radius: 48px;
+        margin: auto;
+    }
+
+    .left div {
+        text-align: center;
+
+    }
+
+    .btn {
+        background-color: black;
+        color: white;
+        margin: 17px 21px;
+        padding: 5px 15px;
+        border-radius: 10px;
+        font-size: 15px;
+        cursor: pointer;
+        font-family: 'Baloo Bhai 2', cursive;
+    }
+
+    .btn:hover {
+        background-color: rgb(43, 41, 41);
+    }
+
+    .container {
+        border: 2px solid white;
+        width: 33%;
+        padding: 50px 30px;
+        margin: 90px 100px;
+        border-radius: 20px;
+
+    }
+
+
+    .formgrp input {
+        font-family: 'Baloo Bhai 2', cursive;
+        display: block;
+        width: 257px;
+        text-align: center;
+        border: 2px solid black;
+        padding: 0px 24px;
+        margin: 10px auto;
+        font-size: 15px;
+        border-radius: 5px;
+    }
+
+    .formgrp .btn {
+        display: block;
+        margin: auto;
+        width: 303px;
+    }
+
+    .formgrp .btn:hover {
+        background-color: rgb(43, 41, 41);
+    }
+
+    .container h2 {
+        text-align: center;
+    }
+</style>
+<body>
+    <header class="header">
+        <!-- This is for logo -->
+        <div class="left">
+            <img src="aa.jpg" alt="">
+            <div>Abhi's Fitness</div>
+        </div>
+        <!-- This is for navigation -->
+        <div class="mid">
+            <div class="navbar">
+                <ul>
+                    <li> <a href="#" class="active">Home</a> </li>
+                    <li> <a href="#">About us</a> </li>
+                    <li> <a href="#">Fitness calculator</a> </li>
+                    <li> <a href="#">Contact us</a> </li>
+                </ul>
+            </div>
+        </div>
+        <!-- This is for buttons -->
+        <div class="right">
+            <button class="btn">Call us Now</button>
+            <button class="btn">Email us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h2>Join the best Gym of the Bihar </h2>
+        <form action="noaction.php">
+            <div class="formgrp">
+                <input type="text" placeholder="Enter your Name">
+                <input type="text" placeholder="Enter your Gender">
+                <input type="text" placeholder="Enter your Locality">
+                <input type="text" placeholder="Enter your Age">
+                <input type="text" placeholder="Enter your Email ID">
+                <input type="text" placeholder="Enter your Phone number">
+                <button class="btn">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
